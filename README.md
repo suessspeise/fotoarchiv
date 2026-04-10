@@ -56,7 +56,7 @@ fotoarchiv/
 **1. `docs/conventions.md`** ✅
 
 **2. `config/controlled_vocab.toml`**
-List every film stock, camera, and format. Canonical spellings only. This doesn't need to be complete.
+List every film stock, camera, and format. Canonical spellings only. This doesn't need to be complete. ✅
 
 **3. `docs/metadata_schema.md`**
 Define every field: name, type, required/optional, example value, which fields live in `.toml` (structured) vs `.md` (free text). This document is what `schema.sql` and `build_db.py` will both be written against.
