@@ -53,7 +53,7 @@ fotoarchiv/
 #### Phase 1 — Decisions crystallised as documents
 *Nothing else can be built until these are settled.*
 
-**1. `docs/conventions.md`** :check_mark:
+**1. `docs/conventions.md`** ✅
 
 **2. `config/controlled_vocab.toml`**
 List every film stock, camera, and format. Canonical spellings only. This doesn't need to be complete.
