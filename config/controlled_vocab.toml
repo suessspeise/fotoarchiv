@@ -1,0 +1,54 @@
+# Controlled Vocabulary
+# ---------------------
+# - Add new canonical values to the "canonical" arrays.
+# - Always use the canonical spelling in your data.
+# - Map any non-canonical spellings to a canonical value in the corresponding [aliases.*] table and trigger a warning
+
+
+# Film stock
+[film_stock]
+canonical = [
+  "Fujifilm Superia 400",
+  "Kodak Gold 200",
+  "Kodak Ultramax 400",
+]
+
+[aliases.film_stock]
+"Gold" = "Kodak Gold 200"
+"Kodak Gold" = "Kodak Gold 200"
+"Gold 200" = "Kodak Gold 200"
+"Gold200" = "Kodak Gold 200"
+"KodakGold 200" = "Kodak Gold 200"
+"Kodak Gold200" = "Kodak Gold 200"
+"KodakGold200" = "Kodak Gold 200"
+"Ultramax" = "Kodak Ultramax 400"
+"Ultramax 400" = "Kodak Ultramax 400"
+"Kodak Ultramax" = "Kodak Ultramax 400"
+
+# Camera bodies
+[camera]
+canonical = [
+  "Pentax K1000",
+  "Olympus mju-II",
+]
+[aliases.camera]
+"pentax" = "Pentax K1000"
+"k1000" = "Pentax K1000"
+"Olympus mju-II" = "Olympus mju-II"
+"Olympus µ-II" = "Olympus mju-II"
+"mju-II" = "Olympus mju-II"
+"mjuII" = "Olympus mju-II"
+"µII" = "Olympus mju-II"
+
+# Capture formats
+[format]
+canonical = [
+  "35mm",
+  "digital",
+  "120"
+]
+[aliases.format]
+"35" = "35mm"
+"35 mm" = "35mm"
+"Medium Format" = "120"
+"MF" = "120"
