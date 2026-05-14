@@ -87,7 +87,7 @@ Automates what you did manually in step 5: given a lab folder, creates stub `.to
 **9. `scripts/verify_checksums.py`** and **`scripts/export_csv.py`**
 Integrity and backup tooling. Less urgent but important before the archive grows large.
 
-**10. `scripts/assess_compeleteness.py` give an overview of how many rolls are missing metadata.
+**10. `scripts/assess_compeleteness.py` give an overview of how many rolls are missing metadata.**
 
 **11. Outlook: [tag images using a LLM](https://medium.com/design-bootcamp/local-ai-vision-for-your-photos-build-ai-image-tagger-with-llama-vision-and-chromadb-e3b1e0eeac43)**
 ---
