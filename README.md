@@ -67,10 +67,10 @@ Define every field: name, type, required/optional, example value, which fields l
 
 #### Schema and a first roll
 
-**4. `catalog/schema.sql`**
+**4. ✅ `catalog/schema.sql`**
 Translate `metadata_schema.md` into SQL tables. Write it by hand.
 
-**5. `catalog/rolls/*.toml` + `*.md`** (manually)
+**5. ✅ `catalog/rolls/*.md`** (manually)
 Pick one existing roll and fill it in completely by hand using a text editor. 
 
 ---
