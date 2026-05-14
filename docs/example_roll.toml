@@ -1,0 +1,20 @@
+# docs/example_roll.toml
+# Example roll file. Copy to catalog/rolls/[lab-ref].toml and fill in.
+# See docs/metadata_schema.md for field definitions.
+# See config/controlled_vocab.toml for valid values.
+
+roll_id      = "2019-034"
+lab_id       = "lab-b"
+lab_ref      = "2019-034"
+
+film_stock   = "Kodak Tri-X 400"
+format       = "35mm"
+frame_count  = 36
+development  = "Lab B, standard D-76, no push"
+
+date_shot    = "1987-06~"
+date_scanned = "2019-03-15"
+camera       = "Nikon FM2"
+location     = "Berlin, Kreuzberg"
+
+notes        = "First roll after camera repair. Frames 12–14 likely overexposed."
