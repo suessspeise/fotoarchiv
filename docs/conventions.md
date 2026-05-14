@@ -111,7 +111,7 @@ Frame notes follow this format:
 
 ## Controlled Vocabulary
 
-Canonical values for film stock, camera, and format are defined in
+Canonical values for film stock, camera, format and labs are defined in
 `config/controlled_vocab.toml`. Always use the canonical spelling.
 If a value is not in the vocabulary, add it there first, then use it.
 
