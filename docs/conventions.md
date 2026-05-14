@@ -1,7 +1,5 @@
 # Archive Conventions
 
-Last updated: 2026-04-10
-
 ## Scope
 
 This document defines the conventions used in this photo archive.
