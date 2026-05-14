@@ -44,7 +44,6 @@ fotoarchiv/
     ├── conventions.md               ← ID scheme, date format, uncertainty notation
 
     ├── example_roll.md
-    ├── example_roll.toml
     ├── metadata_schema.md           ← every field defined, with examples
     ├── workflow.md                  ← step-by-step: how to ingest a new roll
     └── physical_storage.md          ← how boxes/binders/sleeves are organised
